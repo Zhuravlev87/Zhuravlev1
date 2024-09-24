@@ -1,7 +1,3 @@
-# char = input('Введите символ: ')
-# for i in range(1,6):
-#    print(char*i)
-
 month_number = int(input('Введите номер месяца: '))
 if month_number == 1:
     print("Январь")
@@ -29,5 +25,3 @@ elif month_number == 12:
     print("Декабрь")
 else:
     print("Ошибка введите значение от 1 до 12")
-
-
